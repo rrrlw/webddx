@@ -2,6 +2,24 @@
 # possible fields: display_title, content, associated_gene,
 #   symptoms, retrieved date, source_url, source, cui, score
 # query should be vector of terms (term can have multiple words space-separated)
+#####FINDZEBRA API CLIENT FUNCTIONALITY#####
+#' Query FindZebra for differential diagnosis generation
+#' 
+#' Queries the FindZebra website and returns a data frame containing properly
+#' formatted results, including the relevant rare medical conditions and
+#' associated genes.
+#' 
+#' See FindZebra API <http://www.findzebra.com/about> for more information.
+#' 
+#' @param query a character vector in which each symptom is an element and
+#' multiple words within a symptom are separated by spaces
+#' @param num_rows  maximum number of desired rare conditions
+#' @param fields  character vector containing a subset of the following:
+#' `display_title`, `content`, `associated_gene`, `symptom`, `retrieved_date`,
+#' `source_url`, `source`, `cui`, `score`.
+#' @return data frame with 1 row per rare condition and 1 column per field
+#' (see `fields` parameter)
+#' @export
 query_fz <- function(query, num_rows = 20, fields = c("display_title",
                                                       "symptoms",
                                                       "retrieved_date",
