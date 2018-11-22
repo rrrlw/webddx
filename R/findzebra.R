@@ -30,11 +30,16 @@ query_fz <- function(query, num_rows = 20, fields = c("display_title",
 
   # make sure parameters are correctly formatted
   # at least length 1 for each
+  valid_fields <- c("display_title", "content", "associated_gene", "symptom",
+                    "retrieved_date", "source_url", "source", "cui", "score")
   if (length(query) < 1) {
     stop("Cannot have an empty query")
   }
   if (length(fields) < 1) {
     stop("Cannot have empty fields")
+  } else if (sum(fields %in% valid_fields) < length(fields)) {
+    stop(paste("Invalid field included. See fields parameter under",
+               "?query_fz for more information."))
   }
   num_rows <- as.integer(num_rows)
   if (num_rows < 1) {
@@ -64,4 +69,3 @@ query_fz <- function(query, num_rows = 20, fields = c("display_title",
   # return JSON
   query_json$response$docs
 }
-
