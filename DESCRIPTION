@@ -4,7 +4,7 @@ Title: Interact with Web Differential Diagnosis-Generating Tools
 Version: 0.0.0.9000
 Authors@R: c(person("Raoul", "Wadhwa", email = "raoulwadhwa@gmail.com", role = c("aut", "cre")),
     person(c("Marvin", "Natowicz", role = "aut")),
-    person(c("Deborah", "Park", role = "aut")))
+    person(c("Deborah", "Park", role = "ctb")))
 Description: Freely available online differential-diagnosis generating tools are
     changing clinical medicine and biomedical research. With webddx, useRs can
     generate differential diagnosis lists given a set of symptoms. The web tools
