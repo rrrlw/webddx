@@ -1,7 +1,4 @@
-# export to user and return data frame; use JSON format
-# possible fields: display_title, content, associated_gene,
-#   symptoms, retrieved date, source_url, source, cui, score
-# query should be vector of terms (term can have multiple words space-separated)
+# uses JSON format to interact with FindZebra API
 #####FINDZEBRA API CLIENT FUNCTIONALITY#####
 #' Query FindZebra for differential diagnosis generation
 #' 
