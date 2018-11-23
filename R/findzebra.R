@@ -18,7 +18,7 @@
 #' (see `fields` parameter)
 #' @export
 query_fz <- function(query, num_rows = 20, fields = c("display_title",
-                                                      "symptoms",
+                                                      "symptom",
                                                       "retrieved_date",
                                                       "source",
                                                       "score")) {
