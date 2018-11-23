@@ -4,7 +4,7 @@
 \alias{query_fz}
 \title{Query FindZebra for differential diagnosis generation}
 \usage{
-query_fz(query, num_rows = 20, fields = c("display_title", "symptoms",
+query_fz(query, num_rows = 20, fields = c("display_title", "symptom",
   "retrieved_date", "source", "score"))
 }
 \arguments{
