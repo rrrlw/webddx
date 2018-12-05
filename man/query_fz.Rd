@@ -29,3 +29,8 @@ associated genes.
 \details{
 See FindZebra API <http://www.findzebra.com/about> for more information.
 }
+\examples{
+\dontrun{
+query_fz(query = c("muscle pain", "fatigue"))
+}
+}

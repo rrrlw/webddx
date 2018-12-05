@@ -17,6 +17,10 @@
 #' @return data frame with 1 row per rare condition and 1 column per field
 #' (see `fields` parameter)
 #' @export
+#' @examples 
+#' \dontrun{
+#' query_fz(query = c("muscle pain", "fatigue"))
+#' }
 query_fz <- function(query, num_rows = 20, fields = c("display_title",
                                                       "symptom",
                                                       "retrieved_date",
