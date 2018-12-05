@@ -3,4 +3,3 @@
 ^\.Rproj\.user$
 ^.travis.yml$
 ^appveyor.yml$
-^codecov.yml$
