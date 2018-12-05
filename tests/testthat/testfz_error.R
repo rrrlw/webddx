@@ -1,4 +1,4 @@
-context("FindZebra API Client")
+context("FindZebra API Client errors")
 library("webddx")
 
 test_that("empty query throws error", {
