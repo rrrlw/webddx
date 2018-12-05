@@ -29,7 +29,20 @@ devtools::install_github("rrrlw/webddx", build_vignettes = TRUE)
 
 ## Sample code
 
+```r
+# load webddx
+library("webddx")
+
+# query FindZebra for rare diseases involving muscle pain and fatigue
+query_fz(query = c("muscle pain", "fatigue"))
+```
+
+See the documentation of `query_fz` for information on customizing FindZebra queries using additional parameters.
+
 ## Functionality
+
+Currently, webddx implements an API client for [FindZebra](http://www.findzebra.com).
+Development is focused on adding an API client for OMIM.
 
 ## Contribute
 
