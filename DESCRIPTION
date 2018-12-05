@@ -1,6 +1,6 @@
 Package: webddx
 Type: Package
-Title: Interact with Web Differential Diagnosis-Generating Tools
+Title: Interact with Online Differential Diagnosis-Generating Tools
 Version: 0.0.0.9000
 Authors@R: c(person("Raoul", "Wadhwa", email = "raoulwadhwa@gmail.com", role = c("aut", "cre")),
     person("Marvin", "Natowicz", role = "aut"),
