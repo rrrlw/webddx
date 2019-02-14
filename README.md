@@ -2,7 +2,6 @@
 
 [![Travis-CI Build Status](https://travis-ci.org/rrrlw/webddx.svg?branch=master)](https://travis-ci.org/rrrlw/webddx)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/rrrlw/webddx?branch=master&svg=true)](https://ci.appveyor.com/project/rrrlw/webddx)
-[![Coverage Status](https://img.shields.io/codecov/c/github/rrrlw/webddx/master.svg)](https://codecov.io/github/rrrlw/webddx?branch=master)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![CRAN version](http://www.r-pkg.org/badges/version/webddx)](https://CRAN.R-project.org/package=webddx)
